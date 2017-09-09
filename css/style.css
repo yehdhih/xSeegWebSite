@@ -7,15 +7,21 @@ body{
 .scrolled{
     background-color: rgba(0,0,0,.8)
 }
-
+.navbar{
+    background-color: #fff
+}
 
 /* Start Header Styles */
 .header{
     background: url(../images/slide.jpg) no-repeat top center;
     background-size: cover;
-    height: 70vh;
+    height: 80vh;
     position: relative;
     color: #fff
+}
+
+.header p {
+    font-size: 18px;
 }
 .header .overlay{
     top: 0;
@@ -39,11 +45,11 @@ body{
 }
 .header h1{
     font-weight: bold;
-    font-size: 70px
+    font-size: 60px
 }
 .header h1 span{
     font-weight: normal;
-    color: #ff9b51
+    color: #00A600
 }
 .header h1 ~ .lead{
     font-size: 30px
