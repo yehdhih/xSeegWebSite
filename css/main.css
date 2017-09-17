@@ -86,7 +86,7 @@ h2,h1,h4{
 #menu .navbar-default .navbar-nav>li>a:hover {
     color: #fff;
 }
-#menu .navbar:before {
+/*#menu .navbar:before {
         content:"";
         position: absolute;
         left: 50%;
@@ -102,22 +102,27 @@ h2,h1,h4{
         z-index: 99999;
 
 
-}
+}*/
+
+
+/*
+missing code 
 #menu .navbar:after {
         content:"";
         position: absolute;
         left: 50%;
         top: 100%;
-        margin-top: -60px;
-        margin-left: -30px;
-	width: 0; 
-	height: 0; 
-	border-left: 30px solid transparent;
-	border-right: 30px solid transparent;
-	
-	border-top: 30px solid #d4d4d4;
+        margin-top: 60px;
+        margin-left: 30px;
+    width: 0; 
+    height: 0; 
+    border-left: 30px solid transparent;
+    border-right: 30px solid transparent;
+    
+    border-top: 30px solid #d4d4d4;
         z-index: 99999;
 }
+*/
 #menu .navbar-nav>li>a {
     padding-top: 20px;
     padding-bottom: 18px;
@@ -197,7 +202,7 @@ h2,h1,h4{
     background: #d4d4d4;
     position: relative;
 }
-.bottom-line a{
+/*.bottom-line a{
         content:"";
         position: absolute;
         left: 50%;
@@ -212,8 +217,8 @@ h2,h1,h4{
         z-index: 99999;  
         cursor: pointer;
     
-}
-.bottom-line a:before{
+}*/
+/*.bottom-line a:before{
     content: "\f107";
     font-family: FontAwesome;
     position: absolute;
@@ -223,7 +228,7 @@ h2,h1,h4{
     margin-left: -6px;
     display: block;
     color: #000;   
-}
+}*/
 
 
 
